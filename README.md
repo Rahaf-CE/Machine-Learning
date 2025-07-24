@@ -189,3 +189,75 @@ We performed data preprocessing, visualization, and feature engineering to extra
 - Scikit-learn – Preprocessing & Encoding
 
 ---
+
+
+Assignment3:
+🧠 Breast Cancer Classification Using Machine Learning
+📌 Course: Machine Learning and Data Science
+Faculty of Engineering & Technology
+Electrical & Computer Engineering Department
+Birzeit University
+
+Assignment #3 — Report
+Prepared by:
+
+Rahaf Naser (1201319)
+
+Rania Rimawi (1201179)
+Instructor: Dr. Ismail Khater
+Section: 2
+Date: December 2024
+
+📖 Project Overview
+This project explores multiple machine learning techniques to classify breast masses as benign or malignant using the Breast Cancer dataset. The report compares the performance of different algorithms and evaluates them based on various metrics such as accuracy, ROC-AUC, F1-score, precision, and recall.
+
+📂 Contents
+Dataset Preparation
+
+Data Preprocessing
+
+Models Implemented:
+
+K-Nearest Neighbors (KNN)
+
+Logistic Regression (L1 & L2 regularization)
+
+Support Vector Machines (SVM with linear, polynomial, and RBF kernels)
+
+Ensemble Methods (Random Forest and AdaBoost)
+
+Model Evaluation
+
+Comparative Analysis and Results
+
+Conclusion
+
+⚙️ Technologies Used
+Python 3.x
+
+Scikit-learn
+
+Pandas, NumPy
+
+Matplotlib, Seaborn
+
+Jupyter Notebook (for experiments and visualization)
+
+📊 Summary of Results
+Model	Accuracy	AUC Score	Interpretability	Best Use Case
+KNN	~96.7%	~0.99	Low	Small datasets with non-linear boundaries
+Logistic Reg.	High	0.9967-0.9974	High	Linear boundaries, quick & interpretable
+SVM (RBF Kernel)	High	High	Medium	Non-linear complex problems
+Random Forest	High	High	Medium-High	Robustness, variance control
+AdaBoost	Highest	High	Low	Bias reduction, high-performance datasets
+
+📌 Key Observations
+AdaBoost had the highest accuracy, but was sensitive to noise.
+
+Random Forest was more robust and provided feature importance.
+
+SVM (RBF) achieved performance similar to ensemble methods for non-linear data.
+
+Logistic Regression excelled on linear problems with high AUC scores.
+
+KNN was competitive but sensitive to hyperparameters like k and distance metric.
