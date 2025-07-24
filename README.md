@@ -1,4 +1,5 @@
 Assignment1:
+
 📊 Project Overview
 This project involves comprehensive preprocessing, analysis, and visualization of a large dataset related to electric vehicles (EVs). With over 210,000 records and 17 features, the goal was to clean, explore, and extract meaningful insights from the data using Python-based data science techniques.
 
@@ -115,3 +116,75 @@ Scikit-learn – Encoding and normalization
 
 
 Assignment2:
+
+## 📌 Overview
+
+This project explores and analyzes a large dataset of electric vehicles registered in Washington State, USA. The dataset contains over **210,000 entries** with 17 features per record, including manufacturer, model, electric range, location, and more.
+
+We performed data preprocessing, visualization, and feature engineering to extract insights and identify trends in EV adoption and distribution.
+
+---
+
+## 📁 Dataset Details
+
+- **Records**: 210,165
+- **Features**: 17 (e.g., Make, Model, Electric Range, Location, Model Year, MSRP)
+- **Source**: Public EV dataset (Kaggle or open source)
+
+---
+
+## ⚙️ Processing Workflow
+
+### 1. Missing Value Handling
+- Identified columns with missing data.
+- Handled via:
+  - Dropping rows
+  - Filling with statistical or custom values (mean, mode, or "Unknown")
+
+### 2. Encoding
+- Applied one-hot encoding for categorical variables.
+- Used label encoding for ordinal columns.
+
+### 3. Feature Scaling
+- Used MinMaxScaler and StandardScaler from `scikit-learn`.
+
+---
+
+## 📊 Data Analysis & Visualization
+
+### Geographic Distribution
+- Visualized EV locations across Washington using **Folium maps** with clusters.
+
+### Model & Brand Trends
+- Identified top EV makes and models (e.g., Tesla Model Y, Nissan Leaf).
+- Analyzed trends over time (2000–2025) using bar plots and histograms.
+
+### Price & Range Analysis
+- Visualized MSRP vs Electric Range.
+- Found many cars with ranges < 50 miles (likely plug-in hybrids).
+
+### Eligibility & Utility Analysis
+- Examined Clean Alternative Fuel Vehicle (CAFV) eligibility.
+- Filled and visualized missing electric utility data.
+
+---
+
+## 📈 Key Insights
+
+- **Model Y** and **Model 3** are the most popular EVs.
+- **Seattle** has the highest number of EVs.
+- **Tesla** dominates the market with 4 of the top 5 models.
+- EV adoption has grown steadily since 2000.
+- Most EVs in the dataset are plug-in hybrids (limited electric range).
+
+---
+
+## 💻 Tools & Libraries
+
+- Python  
+- Pandas, NumPy – Data analysis  
+- Matplotlib, Seaborn – Visualization  
+- Folium – Maps  
+- Scikit-learn – Preprocessing & Encoding
+
+---
