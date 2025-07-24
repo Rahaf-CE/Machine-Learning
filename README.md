@@ -192,21 +192,8 @@ We performed data preprocessing, visualization, and feature engineering to extra
 
 
 Assignment3:
+
 🧠 Breast Cancer Classification Using Machine Learning
-📌 Course: Machine Learning and Data Science
-Faculty of Engineering & Technology
-Electrical & Computer Engineering Department
-Birzeit University
-
-Assignment #3 — Report
-Prepared by:
-
-Rahaf Naser (1201319)
-
-Rania Rimawi (1201179)
-Instructor: Dr. Ismail Khater
-Section: 2
-Date: December 2024
 
 📖 Project Overview
 This project explores multiple machine learning techniques to classify breast masses as benign or malignant using the Breast Cancer dataset. The report compares the performance of different algorithms and evaluates them based on various metrics such as accuracy, ROC-AUC, F1-score, precision, and recall.
